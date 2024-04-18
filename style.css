@@ -4,3 +4,17 @@
     box-sizing: border-box;
 }
 
+.header nav {
+    /*display: flex;*/
+}
+
+.headerblock {
+    /*display: flex;*/
+}
+
+.secondblock img {
+    background-color: gray;
+    height: 300px;
+    width: 300px;
+
+}
