@@ -4,17 +4,191 @@
     box-sizing: border-box;
 }
 
-.header nav {
-    /*display: flex;*/
+main {
+    width: 80%;
+    margin: 0 auto;
 }
 
-.headerblock {
-    /*display: flex;*/
+h1,
+h2,
+p,
+a {
+    font-family: Arial, sans-serif;
 }
 
-.secondblock img {
-    background-color: gray;
-    height: 300px;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #F5F5F5;
+}
+
+.hero-text {
+    max-width: 600px;
+}
+
+.hero-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero-text p {
+    color: #777;
+    margin-bottom: 1rem;
+}
+
+.sign-up-button {
+    background-color: #0084ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero-image {
+    background-color: #ddd;
     width: 300px;
-
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
 }
+
+.info-section {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.info-section h2 {
+    margin-bottom: 2rem;
+}
+
+.info-box {
+    display: inline-block;
+    width: 300px;
+    border: 2px solid #0084ff;
+    margin: 0 10px;
+    padding: 1rem;
+}
+
+.info-box p {
+    color: #777;
+}
+
+.quote-section {
+    background-color: #F5F5F5;
+    padding: 2rem;
+    text-align: center;
+}
+
+.quote-section blockquote {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.call-to-action {
+    background-color: #0084ff;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+.call-to-action p {
+    margin-bottom: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+
+
+/*
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    /* Dark background as shown in your desired header 
+    padding: 1em;
+    /* Space around content inside header 
+    color: white;
+    /* Text color 
+}
+
+.logo {
+    margin-left: 1em;
+    /* Space from the left edge of the header 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* This will space your navigation items evenly 
+}
+
+.nav-item {
+    text-decoration: none;
+    /* Removes underline from links 
+    color: white;
+    /* Text color 
+    margin: 0 0.5em;
+    /* Space between navigation items 
+    padding: 0.5em 1em;
+    /* Padding around navigation items for clickable area 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333; /* Background color 
+    padding: 2em;
+    color: white;
+  }
+  
+  .text-section h1 {
+    font-size: 2.5rem; /* Large font size for the title 
+    margin-bottom: 0.5em; /* Space between title and subtext 
+  }
+  
+  .subtext {
+    font-size: 1rem; /* Smaller font size for the subtext 
+    color: #bbb; /* Lower contrast for the subtext 
+    margin-bottom: 1em; /* Space between subtext and button 
+  }
+  
+  .signup-button {
+    padding: 0.5em 1em;
+    background-color: #007bff; /* Example button color 
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  */
