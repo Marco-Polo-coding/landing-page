@@ -85,7 +85,11 @@ nav a {
 }
 
 .info-section h2 {
-    margin-bottom: 2rem;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    padding: 3rem 0;
 }
 
 .info-box {
