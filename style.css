@@ -64,19 +64,19 @@ nav a {
 .sign-up-button {
     background-color: #0084ff;
     color: white;
+    border-radius: 8px;
+    padding: 7px 30px;
     border: none;
-    padding: 10px 20px;
-    cursor: pointer;
 }
 
 .hero-image {
-    background-color: #ddd;
+    background-color: #919191;
     width: 300px;
     height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #777;
+    color: #3d3d3d;
 }
 
 
