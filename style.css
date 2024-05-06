@@ -5,7 +5,7 @@
 }
 
 main {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -79,9 +79,22 @@ nav a {
     color: #777;
 }
 
+
 .info-section {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
     text-align: center;
-    padding: 3rem 0;
+    padding: 3rem;
+    flex-wrap: wrap;
+}
+
+article {    
+    margin: 20px;  
+    display: flex; /* Añade flex para manejar la distribución interna */
+    flex-direction: column; /* Alinea los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    text-align: center;
 }
 
 .info-section h2 {
@@ -90,20 +103,31 @@ nav a {
     color: #1F2937;
     text-align: center;
     padding: 3rem 0;
+    width: 100%; /* Asegura que el título ocupe todo el ancho */
 }
 
 .info-box {
-    display: inline-block;
-    width: 300px;
+    height: 100px;
+    width: 100px; /* Puedes ajustar el ancho según necesites */
     border: 2px solid #0084ff;
-    margin: 0 10px;
-    padding: 1rem;
+    padding: 10px;
+    border-radius: 15%;
 }
 
-.info-box p {
+/*
+    p,
+.info-box1 .info-box2 .info-box3 .info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+*/
+
+article p {
     color: #777;
+    margin-top: 10px; /* Añade un espacio entre el cuadro y el texto */
 }
-
 .quote-section {
     background-color: #F5F5F5;
     padding: 2rem;
